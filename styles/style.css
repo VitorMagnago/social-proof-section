@@ -20,3 +20,25 @@ body {
 	max-width: 87vw;
 	padding: 5rem 0 6rem 0;
 }
+
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	text-align: center;
+}
+
+.header__title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 0.8;
+	letter-spacing: -0.0894rem;
+	color: var(--card-background-color);
+}
+.header__text {
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: calc(25 / 19);
+	letter-spacing: -0.0394rem;
+	color: var(--header-text-color);
+}
