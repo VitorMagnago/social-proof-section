@@ -12,4 +12,11 @@
 body {
 	font-family: "League Spartan", sans-serif;
 	background-color: var(--background-color);
+	display: grid;
+	place-items: center;
+}
+
+.page__wrap {
+	max-width: 87vw;
+	padding: 5rem 0 6rem 0;
 }
