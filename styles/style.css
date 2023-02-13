@@ -69,3 +69,49 @@ body {
 	font-weight: 700;
 	color: var(--card-background-color);
 }
+
+.testimonial {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.testimonial__card {
+	background-color: var(--card-background-color);
+	padding: 2.5rem 2rem 2rem 2rem;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.testimonial__buyer {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+
+.buyer__avatar {
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 50%;
+}
+
+.buyer__name {
+	font-size: 1.0625rem;
+	font-weight: 700;
+
+	color: var(--card-text-color);
+}
+
+.buyer__verified {
+	font-size: 1.0625rem;
+	color: var(--card-sec-text-color);
+}
+
+.testimonial__text {
+	font-size: 1.0625rem;
+	font-weight: 500;
+	line-height: calc(22 / 17);
+	letter-spacing: -0.0187rem;
+	color: var(--card-text-color);
+}
