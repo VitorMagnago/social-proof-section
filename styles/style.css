@@ -42,3 +42,30 @@ body {
 	letter-spacing: -0.0394rem;
 	color: var(--header-text-color);
 }
+
+.rate {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+}
+.rate__card {
+	background-color: var(--rate-background-color);
+	display: flex;
+	flex-direction: column;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	gap: 1rem;
+	align-items: center;
+	border-radius: 0.5rem;
+}
+
+.rate__stars {
+	display: flex;
+	gap: 0.53rem;
+}
+
+.rate__text {
+	font-size: 1.0625rem;
+	font-weight: 700;
+	color: var(--card-background-color);
+}
