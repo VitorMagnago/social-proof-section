@@ -1,1 +1,15 @@
 @import url(reset.css);
+
+:root {
+	--background-color: #f2f2f2;
+	--card-background-color: #512051;
+	--rate-background-color: #f7f2f7;
+	--header-text-color: #927b91;
+	--card-text-color: #ffffff;
+	--card-sec-text-color: #ee69a4;
+}
+
+body {
+	font-family: "League Spartan", sans-serif;
+	background-color: var(--background-color);
+}
