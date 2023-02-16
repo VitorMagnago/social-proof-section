@@ -1,7 +1,7 @@
 @import url(reset.css);
 
 :root {
-	--background-color: #f2f2f2;
+	--background-color: #ffffff;
 	--card-background-color: #512051;
 	--rate-background-color: #f7f2f7;
 	--header-text-color: #927b91;
@@ -126,7 +126,7 @@ body {
 @media (min-width: 64.3rem) {
 	body {
 		background-image: url(/images/bg-pattern-top-desktop.svg),
-		url(/images/bg-pattern-bottom-desktop.svg);
+			url(/images/bg-pattern-bottom-desktop.svg);
 		background-position: top left, bottom right;
 	}
 
@@ -192,4 +192,4 @@ body {
 	.testimonial .testimonial__card:nth-child(3) {
 		margin-top: 2rem;
 	}
-  }
+}
